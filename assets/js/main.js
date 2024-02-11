@@ -69,7 +69,3 @@ sr.reveal(`.home__circle`,{scale:1.5,delay:300});
 sr.reveal(`.home__subcircle`,{scale:1.5,delay:500});
 sr.reveal(`.home__title`,{scale:1.5, origin:'bottom', delay:1200});
 sr.reveal(`,footer,.swiper-button-prev,.swiper-button-next`,{ origin:'bottom'});
-sr.reveal(`.nav`,{
-    origin:'bottom',
-    distance:'0',
-})
