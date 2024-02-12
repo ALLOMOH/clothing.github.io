@@ -18,8 +18,6 @@ if (navClose) {
 }
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link');
-console.log(navLink);
-
 const linkAction = () => {
     const navMenu = document.getElementById('nav-menu');
     navMenu.classList.remove('show-menu');
@@ -36,7 +34,6 @@ let swiperHome = new Swiper('.home__swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-
     breakpoints: {
         768: {
             slidesPerView: 3,
